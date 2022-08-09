@@ -26,7 +26,7 @@ while x != 0:
    print(' ')
    cabecalho()
    
-   x = int (input ("\nEscolha uma das opções citadas acima: "))
+   x = int (input ("\nEscolha uma das Operações citadas acima: "))
    if x == 1:
         print("\nopção escolhida => SOMA: ")
    elif x == 2:
