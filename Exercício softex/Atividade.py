@@ -40,7 +40,7 @@ while x != 0:
         print("\nOpção invalida: ")
         print('')
         cabecalho()
-        x = int (input ("\nEscolha uma das opções citadas acima: "))
+        x = int (input ("\nEscolha uma das Operações citadas acima: "))
    else: 
         X = 0
         print("\nProcesso encerrado. \n")
@@ -56,13 +56,13 @@ while x != 0:
     
    elif x == 2:
      print(' ')
-     print('\n\nResultado da subtração entre ', '(',str(n1), ') e (', str(n2),')' , ' é igual a ( ', float(subtracao(n1, n2)),') ')
+     print('\n\nResultado da Subtração entre ', '(',str(n1), ') e (', str(n2),')' , ' é igual a ( ', float(subtracao(n1, n2)),') ')
        
    elif x == 3:
      print(' ')
-     print('\n\nResultado da multiplicação entre ', ' (',str(n1), ') e (', str(n2),')' , ' é igual a (', float(multiplicacao(n1, n2)),') ')
+     print('\n\nResultado da Operação entre ', ' (',str(n1), ') Multiplicado por (', str(n2),')' , ' é igual a (', float(multiplicacao(n1, n2)),') ')
    elif x == 4:
      print(' ')
-     print('\n\nResultado da divisão entre ', '(',str(n1), ') e ', str(n2),')' , ' é igual a (', float(divisao(n1, n2)),') ')
+     print('\n\nResultado da Operação entre ', '(',str(n1), ') Dividido por (', str(n2),')' , ' é igual a (', float(divisao(n1, n2)),') ')
      
        
